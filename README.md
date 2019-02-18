@@ -33,10 +33,10 @@ spring.jpa.hibernate.ddl-auto=none
 
 #Available Rest Endpoints
 
-'''
+```
 1)-  @RequestMapping(value = "/user/{uid}", method = RequestMethod.GET)
 2)-  @RequestMapping(value = "/users", method = RequestMethod.GET)
 3)-  @RequestMapping(value = "/user", method = RequestMethod.POST)
 4)-  @RequestMapping(value = "user/{uid}", method = RequestMethod.PUT)
 5)-  @RequestMapping(value = "user/{uid}", method = RequestMethod.DELETE)
-'''
+```
