@@ -38,10 +38,19 @@ spring.jpa.hibernate.ddl-auto=none
 
 ```
 1)-  @RequestMapping(value = "/user/{uid}", method = RequestMethod.GET)
+        User getUser(@PathVariable Long uid)
+        
 2)-  @RequestMapping(value = "/users", method = RequestMethod.GET)
+        public List<User> getUsers()
+        
 3)-  @RequestMapping(value = "/user", method = RequestMethod.POST)
+        public User addUser(@RequestBody User user)
+          
 4)-  @RequestMapping(value = "user/{uid}", method = RequestMethod.PUT)
+        public void updateUser(@RequestBody User updatedItem, @PathVariable Long uid)
+        
 5)-  @RequestMapping(value = "user/{uid}", method = RequestMethod.DELETE)
+        public void deleteUser(@PathVariable Long uid)
 ```
 
 ## Database Table Schema
