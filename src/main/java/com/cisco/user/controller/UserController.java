@@ -27,7 +27,7 @@ public class UserController {
 
 
     @RequestMapping(value = "/users", method = RequestMethod.GET)
-    public List<User> findItems() throws Exception {
+    public List<User> findUsers() throws Exception {
         List<User> result = userJdbcService.getAllUsers();
         return result;
     }
