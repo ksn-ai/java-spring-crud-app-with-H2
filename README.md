@@ -50,7 +50,7 @@ alter table user_details add constraint FKcaf6ht0hfw93lwc13ny0sdmvo foreign key 
 
 ```
 
-## Database inset query
+## Database insert query
 
 ```
 INSERT INTO users (uid, name) VALUES (1, 'Kishan Singh');
