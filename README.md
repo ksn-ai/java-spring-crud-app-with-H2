@@ -21,9 +21,7 @@ security.user.password=test
 
 ```
 
-In this app we used H2 in memory database for demo purpose. 
-
-
+In this app we used H2 in memory database for demo purpose.    http://localhost:8888/console/
 
 ```
 spring.datasource.url=jdbc:h2:mem:TEST;MVCC=true;DB_CLOSE_DELAY=-1;MODE=Oracle
