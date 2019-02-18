@@ -1,8 +1,17 @@
 # Spring-boot Angular 7 and H2 Database CRUD Operation Demo App for CISCO
 
+After staring application open below link in browser.
+  http://localhost:8888/
+```
+server.port = 8888
+
+```
+
+
 Use below User Name and Password :
 
 ```
+
 
 security.user.name=test
 security.user.password=test
