@@ -31,7 +31,7 @@ spring.datasource.platform=h2
 spring.jpa.hibernate.ddl-auto=none
 ```
 
-#Available Rest Endpoints
+# Available Rest Endpoints
 
 ```
 1)-  @RequestMapping(value = "/user/{uid}", method = RequestMethod.GET)
