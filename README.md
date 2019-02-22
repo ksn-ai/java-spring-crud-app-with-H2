@@ -1,4 +1,4 @@
-# Spring-boot Angular 7 and H2 Database CRUD Operation Demo App for CISCO
+# Spring-boot Angular 7 and H2 Database CRUD Operation Demo App 
 
 #### UI Application link   https://github.com/ksn-ai/angular-app
 
